@@ -96,7 +96,7 @@ SpaceHipster.Game.prototype = {
   },
   hitAsteroid: function(player, asteroid) {
     //play explosion sound
-    this.explosionSound.play();
+    //this.explosionSound.play();
 
     //make the player explode
     var emitter = this.game.add.emitter(this.player.x, this.player.y, 100);
@@ -115,7 +115,7 @@ SpaceHipster.Game.prototype = {
   },
   collect: function(player, collectable) {
     //play collect sound
-    this.collectSound.play();
+    //this.collectSound.play();
 
     //update score
     this.playerScore++;
